@@ -5,27 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | Blog preview card</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 
 <body>
 
     <main>
-        <section class="blog">
-            <div class="blog-container">
-                <span class="learning">Learning</span>
-                <p>Published 21 Dec 2023</p>
+        <section>
+            
+            <img class="blog-img mobile-img" src="images/blog-image-mobile.png">
+            <img class="blog-img desktop-img" src="images/blog-image-desktop.jpg">
 
-                <h1>HTML & CSS foundations</h1>
 
+        <div class="content">
+
+            <span class="bold">Learning</span>
+            <p class="date">Published 21 Dec 2023</p>
+            <h1>HTML & CSS foundations</h1>
+
+            <div class="blog-p">
                 <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
-
-                <span class="blog-user">Greg Hooper</span>
-
-
             </div>
 
+        </div>
+
+        <div class="blog-user" >
+                    <img src="images/image-avatar.webp" width="32px"> 
+                    <span class="bold">Greg Hooper</span>
+        </div>
+  
         </section>
+        
     </main>
 
 
