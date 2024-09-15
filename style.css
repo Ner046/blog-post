@@ -73,6 +73,10 @@ img{
     align-items: center;
 }
 
+.blog-img{
+    border-radius: 0.625rem
+}
+
 .content h1{
     font-size: var(--fs-500);
     margin-bottom: var(--padding-500);
@@ -101,9 +105,7 @@ img{
     padding: var(--padding-300) var(--padding-500);
 }
 
-.desktop-img{
-    display: none;
-}
+
 
 
 @media (min-width: 768px) {
@@ -118,12 +120,5 @@ img{
 
     .date{
         font-size: var(--fs-300);
-    }
-
-    .mobile-img{
-        display: none;
-    }
-    .desktop-img{
-        display: block;
     }
   }
