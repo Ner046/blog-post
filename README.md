@@ -21,3 +21,5 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 3) Building mobile-first
 
 
+
+![blog card](images/blog-screenshot.jpeg)
