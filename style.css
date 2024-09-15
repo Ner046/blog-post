@@ -48,7 +48,7 @@ section{
 }
 
 .content{
-    margin: var(--padding-800) 0;
+    margin: var(--padding-600) 0;
 }
 
 
@@ -104,8 +104,6 @@ img{
     border-radius: 0.25rem;
     padding: var(--padding-300) var(--padding-500);
 }
-
-
 
 
 @media (min-width: 768px) {
